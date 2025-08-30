@@ -106,9 +106,19 @@ const projects = [
         technologies: ['laravel', 'php', 'html', 'css', 'javascript', 'mysql', 'bootstrap'],
         cardImage: 'images/projects/teste-inteligencia-espiritual/0.png',
         description: `Aplicação com a finalidade de descobrir o nível de inteligência espiritual de um indivíduo. 
-        Inclui autenticação, sistemas CRUD  e responsividade.`,
+        Inclui autenticação, sistemas CRUD e responsividade.`,
         images: getProjectImages('teste-inteligencia-espiritual', 3),
         repositoryUrl: 'https://github.com/NatanaelNogueira144/teste-inteligencia-espiritual'
+    },
+    {
+        title: 'MIDI Viewer',
+        type: 'webapplication',
+        technologies: ['react', 'html', 'css', 'javascript'],
+        cardImage: 'images/projects/midi-viewer/3.png',
+        description: `Um visualizador de arquivos MIDI em um piano virtual. Funcionalidade similar ao "Synthesia".`,
+        images: getProjectImages('midi-viewer', 7),
+        liveProject: 'https://natanaelnogueira144.github.io/midi-viewer',
+        repositoryUrl: 'https://github.com/NatanaelNogueira144/midi-viewer'
     },
     {
         title: 'KojiSplit',
