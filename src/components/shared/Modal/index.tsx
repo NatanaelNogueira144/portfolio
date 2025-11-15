@@ -12,9 +12,7 @@ export default function Modal({ isOpen, onClose, children }: ModalProps) {
     return (
         <ModalOverlay onClick={onClose}>
             <ModalContent onClick={e => e.stopPropagation()}>
-                <ModalClose onClick={onClose}>
-                    &times;
-                </ModalClose>
+                <ModalClose onClick={onClose}>&times;</ModalClose>
                 {children}
             </ModalContent>
         </ModalOverlay>

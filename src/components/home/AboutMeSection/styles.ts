@@ -27,11 +27,19 @@ interface InfoCardProps {
 }
 
 export const InfoCard = styled.div<InfoCardProps>`
+    position: relative;
     width: 100%;    
     padding: 20px;
     border-radius: 10px;
     background-color: ${props => props.theme.colors.white};
     box-shadow: 0px 2px 2px 0px ${props => props.color};
+    bottom: 0;
+    transition: all ease-in 0.2s;
+
+    &:hover {
+        bottom: 5px;
+        box-shadow: 0px 2px 2px 1px ${props => props.color};
+    }
 `;
 
 export const InfoCardWrapper = styled.div`

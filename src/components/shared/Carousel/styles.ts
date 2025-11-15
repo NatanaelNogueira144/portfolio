@@ -61,8 +61,7 @@ export const Dot = styled.div<DotProps>`
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: ${({ active, theme }) =>
-        active ? theme.colors.primary : "rgba(255, 255, 255, 0.6)"};
+    background: ${({ active, theme }) => active ? theme.colors.primary : "rgba(255, 255, 255, 0.6)"};
     cursor: pointer;
     transition: background 0.3s;
 `;

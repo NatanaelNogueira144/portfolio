@@ -20,7 +20,8 @@ const services = [
         icon: IconWeb,
         color: '#7CB46B',
         images: getServiceImages('website'),
-        cardImage: 'images/services/website.png'
+        cardImage: 'images/services/website.png',
+        projectsCount: 10
     },
     {
         id: 'webapplication',
@@ -31,7 +32,8 @@ const services = [
         icon: IconWebApplication,
         color: '#4682B4',
         images: getServiceImages('webapplication'),
-        cardImage: 'images/services/webapplication.png'
+        cardImage: 'images/services/webapplication.png',
+        projectsCount: 15
     },
     {
         id: 'api',
@@ -41,7 +43,8 @@ const services = [
         icon: IconWebApplication,
         color: '#606060',
         images: getServiceImages('api'),
-        cardImage: 'images/services/api.png'
+        cardImage: 'images/services/api.png',
+        projectsCount: 5
     }
 ] as IService[];
 

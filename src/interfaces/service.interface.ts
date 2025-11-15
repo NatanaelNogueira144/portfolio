@@ -8,4 +8,5 @@ export interface IService {
     color: string;
     images: string[];
     cardImage: string;
+    projectsCount: number;
 }

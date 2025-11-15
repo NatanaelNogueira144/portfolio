@@ -4,6 +4,13 @@ Todas as mudanças notáveis deste projeto serão documentadas neste arquivo.
 O formato é baseado em [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 e esse projeto adere à [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.7] - 2025-11-15
+### Adicionado
+- Animação ao passar o mouse nos cards da seção "Quem Sou".
+
+### Removido
+- Projeto "Vivadoração", "IPPV Master", "IPPV Coach", "Site IPPV", "Espaço Lírio Visitas" e "Smart House Aluguéis".
+
 ## [1.0.6] - 2025-08-05
 ### Alterado
 - Projeto "MIDI Viewer", versão 0.2.0;

@@ -25,5 +25,10 @@ export default createGlobalStyle`
     p {
         font-size: 1rem;
         margin-bottom: 1rem;
+        user-select: none;
+    }
+
+    h1, h2, h3, h4, h5, h6, span {
+        user-select: none;
     }
 `;

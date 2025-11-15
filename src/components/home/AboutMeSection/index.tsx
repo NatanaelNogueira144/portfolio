@@ -37,7 +37,7 @@ export default function AboutMeSection({ about, projects, services }: AboutMeSec
                                     </InfoCardIcon>
                                     <div>
                                         <CardTitle>{service.title}</CardTitle>
-                                        <span>{projects.filter(p => p.type === service.id).length} Projetos</span>
+                                        <span>{service.projectsCount} Projetos</span>
                                     </div>
                                 </InfoCardWrapper>
                             </InfoCard>
@@ -51,7 +51,7 @@ export default function AboutMeSection({ about, projects, services }: AboutMeSec
                     ))}
                     <InfosGroup>
                         <InfoContainer>
-                            <InfoNumber>{projects.length}+</InfoNumber>
+                            <InfoNumber>{services.reduce((p, s) => s.projectsCount + p, 0)}+</InfoNumber>
                             <InfoDescription>Projetos Completos</InfoDescription>
                         </InfoContainer>
 
